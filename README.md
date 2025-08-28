@@ -69,11 +69,11 @@ git clone https://github.com/your-username/LaptopHarborApps.git
 
 cd LaptopHarborApps
 
-Install Dependencies
+2️⃣ Install Dependencies
 
 flutter pub get
 
-Configure Firebase
+3️⃣ Configure Firebase
 
 Go to Firebase Console
 
@@ -81,11 +81,11 @@ Create a project and add Android & iOS apps
 
 Download the google-services.json (for Android) & GoogleService-Info.plist (for iOS) and place them in their respective folders.
 
-Run the App
+4️⃣ Run the App
 
 flutter run
 
-Connect with Me
+🌐 Connect with Me
 
 LinkedIn: [Your Profile](https://www.linkedin.com/in/yousuf-ansari-8275001a6
 
