@@ -1,0 +1,82 @@
+name: laptopharbo_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  cloud_firestore: ^5.6.9
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+  shared_preferences: ^2.5.3
+  animations: ^2.0.7
+  google_fonts: ^6.2.1         # ✅ Only keep the latest version
+  smooth_page_indicator: ^1.1.0
+  image_picker: ^1.0.4
+  http: ^1.1.0
+  fluttertoast: ^8.2.4
+  google_sign_in: ^6.0.2
+  lottie: ^2.3.2
+  path: ^1.9.0
+  bcrypt: ^1.1.3
+  random_string: ^2.3.1
+  curved_navigation_bar: ^1.0.3
+  carousel_slider: ^5.1.1
+  fl_chart: ^0.65.0
+  flutter_rating_bar: ^4.0.1
+  badges: ^3.1.1
+  google_generative_ai: ^0.2.2
+  intl: ^0.19.0
+  mailer: ^6.0.1
+  cloud_functions: ^5.6.1
+  firebase_storage: ^12.4.9
+  font_awesome_flutter: ^10.5.0 # ✅ Correct version
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/google_logo.png
+    - assets/facebook.png
+    - assets/bg.png
+    - assets/onboarding1.png
+    - assets/onboarding2.png
+    - assets/onboarding3.png
+    - assets/laptop_logo.png
+    - assets/login.json
+    - assets/banner1.jpg
+    - assets/banner2.jpg
+    - assets/banner3.jpg
+    - assets/laptop_placeholder.png
+    - assets/default_avatar.png
+    - assets/images/truck.json
+    - assets/images/purchase.json
+    - assets/images/order.json
+    - assets/images/laptop_logo.json
+    - assets/images/signup.json
+    - assets/images/login.json
+    - assets/images/laptop.json
+
+    # laptop
+    - assets/laptop/laptop1.png
+    - assets/laptop/laptop2.png
+    - assets/laptop/laptop3.png
+    - assets/laptop/laptop4.png
+    - assets/laptop/laptop5.png
+    - assets/laptop/laptop6.png
+    - assets/laptop/laptop7.png
+    - assets/laptop/laptop8.png
+    - assets/laptop/laptop9.png
+    - assets/laptop/laptop10.jpg
